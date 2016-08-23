@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="matd02.ufba.br.testesensores">
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AccelerometerActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".GyroscopeActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".MagnetometerActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".ProximityActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".LightActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".HeartRateActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".PedometerActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".HumidityActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".PressureActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".GPSActivity"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

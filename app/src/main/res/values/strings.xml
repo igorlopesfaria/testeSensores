@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Testes com Sensores</string>
+    <string name="title_activity_accelerometer">AccelerometerActivity</string>
+</resources>
